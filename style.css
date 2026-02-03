@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 2px;
+  box-sizing: border-box;
+  background-color: #f7f8f3;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box {
+  /* width: 95vw; */
+  padding-left: px;
+  font-weight: 500;
+  /* border: 2px solid red; */
+}
+.box .nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid red; */
+  padding: 2px 21px;
+}
+.nav .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* *************center***************** */
+.nav .center {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  padding: 10px 23px;
+  gap: 27px;
+  color: #111;
+  font-weight: 500;
+  /* border: 2px solid blue; */
+}
+.nav .center a {
+  text-decoration: none;
+  color: #111;
+  font-size: 13px;
+  /* font-style: bold; */
+}
+
+/***********Right nav*************** */
+
+.nav .right {
+  /* padding: 0 20px; */
+  text-decoration: none;
+}
+.right a {
+  padding: 4px 12px;
+  border-radius: 16px;
+  /* font-size: 11px; */
+  text-decoration: none;
+}
+.right #dbtn {
+  background-color: #111;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+.right #btn {
+  border: 0.1px solid #3e3d3d;
+  font-size: 14px;
+  color: #444;
+}
+
+/* *********hero section*************** */
+.hero {
+  /* border: 2px solid blue; */
+  height: 620px;
+  padding-top: 8.5%;
+  padding-left: 20.6px;
+  padding-right: 20.6px;
+  font-size: 26px;
+  font-weight: 500;
+  font-style: bold;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.hero .download button {
+  background-color: #111;
+  color: #fff;
+  padding: 11px 21px;
+  font-size: medium;
+  border-radius: 21px;
+  font-size: medium;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.hero .img-background img {
+  width: 99%;
+  border-radius: 10px;
+  /* padding-right: 10px; */
+}
+.hero .para2 {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+}
+.hero .logos img {
+  /* border: 2px solid red; */
+  /* display: flex; */
+  flex-direction: row;
+  width: 15%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  mix-blend-mode: color-burn;
+}
