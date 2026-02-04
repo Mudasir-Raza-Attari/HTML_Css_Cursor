@@ -122,25 +122,4 @@
   font-size: 15px;
 }
 
-footer .logo-container {
-  display: flex;
-  /* flex-direction: row; */
-}
-footer .logo-container .logo img {
-  width: 100px;
-  aspect-ratio: 3/2;
 
-  padding-top: 80%;
-  /* object-fit: contain; */
-  /* mix-blend-mode: color-burn; */
-}
-
-.logos {
-  /* border: 2px solid red; */
-  /* display: flex; */
-  /* flex-direction: row; */
-  /* width: 15%; */
-  /* aspect-ratio: 3/2; */
-  /* object-fit: contain; */
-  /* mix-blend-mode: color-burn; */
-}
